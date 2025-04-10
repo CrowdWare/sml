@@ -11,40 +11,10 @@ This project uses [SML (Simple Markdown Language)](https://github.com/CrowdWare/
 
 ---
 
-## 🧩 Cloning with Submodules
+## ➕ Adding the Submodule (one-liner)
 
-To clone this repository including the `sml` submodule, run:
-
-```bash
-git clone --recurse-submodules https://github.com/YOUR_USERNAME/YOUR_REPO.git
-```
-
----
-
-## ➕ Adding the Submodule (if not yet included)
-
-If you want to add the submodule manually:
+To add the submodule to an existing repository in a single step:
 
 ```bash
-git submodule add https://github.com/CrowdWare/sml sml
-git submodule update --init --recursive
+git submodule add --init --recursive https://github.com/CrowdWare/sml sml
 ```
-
----
-
-## 🔄 Updating the Submodule
-
-To update the submodule to the latest version from its main branch:
-
-```bash
-git submodule update --remote --merge
-```
-
-Alternatively, if you want to reset and re-initialize all submodules:
-
-```bash
-git submodule deinit -f .
-git submodule update --init --recursive
-```
-
-> 💡 Tip: Always commit submodule changes after updating to ensure consistency for collaborators.
