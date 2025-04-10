@@ -1,6 +1,6 @@
 ElementDefinition {
     name: "App"
-    description: "Base for the NoCodeDesigner project"
+    description: "Base for the NoCodeDesigner and smile projects"
 
     Properties {
         Property {
