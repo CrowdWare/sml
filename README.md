@@ -5,6 +5,8 @@ SML is derived from QML (Qt Markup Language).
 ## Plugins
 Additional elements can be added using plugins.
 
+---
+
 ## 📦 Including SML as a Git Submodule
 
 This project uses [SML (Simple Markdown Language)](https://github.com/CrowdWare/sml) as a Git submodule.
