@@ -19,6 +19,13 @@ ElementDefinition {
         }
 
         Property {
+            name: "padding"
+            type: "String"
+            default: ""
+            description: "Space around the content. Accepts 1, 2 or 4 integers (in dp): '8' (all), '8 16' (vertical horizontal), or '8 16 16 8' (top right bottom left)."
+        }
+
+        Property {
             name: "weight"
             type: "Int"
             default: "0"
@@ -43,14 +50,14 @@ ElementDefinition {
             name: "scale"
             type: "String"
             default: ""
-            description: "Defines how the image should be scaled within its bounds. Options include: 'Fit', 'Fill', 'Crop', 'Inside'."
+            description: "Defines how the image should be scaled within its bounds. Options include: fit | fill | crop | inside'."
         }
 
         Property {
-            name: "alignment"
+            name: "align"
             type: "String"
             default: "Center"
-            description: "How the image is aligned inside its layout container. Options: Start, Center, End, Top, Bottom."
+            description: "How the image is aligned inside its layout container. Options: topStart | topCenter | topEnd | centerStart | center | centerEnd | bottomStart | bottomCenter | bottomEnd."
         }
     }
 }
