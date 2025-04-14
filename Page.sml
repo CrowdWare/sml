@@ -27,8 +27,8 @@ ElementDefinition {
         }
         Property {
             name: "scrollable"
-            type: "String"
-            default: "false"
+            type: "Boolean"
+            default: false
             description: "Determines if the content of the page can be scrolled or not. Values are true|false"
         }
         Property {
