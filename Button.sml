@@ -10,7 +10,7 @@ ElementDefinition {
         Root { name: "LazyContent"}
     }
 
-    Properties {
+
         Property {
             name: "label"
             type: "String"
@@ -23,5 +23,5 @@ ElementDefinition {
             type: "String"
             description: "The navigation option that may link to a page, an external website or to trigger an internal function. Sample: 'page:about'"
         }
-    }
+
 }

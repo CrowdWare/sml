@@ -10,7 +10,7 @@ ElementDefinition {
         Root { name: "LazyNoContent"}
     }
 
-    Properties {
+
         Property {
             name: "verticalArrangement"
             type: "String"
@@ -38,5 +38,5 @@ ElementDefinition {
             default: ""
             description: "Optional background color for the Column. Example: '#FFFFFF'."
         }
-    }
+
 }
