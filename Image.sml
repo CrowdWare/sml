@@ -6,7 +6,7 @@ ElementDefinition {
     AllowedRoot { name: "Column" }
     AllowedRoot { name: "Row" }
     AllowedRoot { name: "LazyContent"}
-    Allowed Root { name: "LazyNoContent"}
+    AllowedRoot { name: "LazyNoContent"}
 
     Property {
         name: "src"
