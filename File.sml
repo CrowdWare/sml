@@ -22,6 +22,6 @@
           name: "type"
           type: "String"
           default: ""
-          description: "The type of a file. Example: part-de"
+          description: "The type of a file. Example: part"
       }
  }

@@ -9,12 +9,6 @@ ElementDefinition {
     AllowedRoot { name: "LazyNoContent"}
 
     Property {
-        name: "part"
-        type: "String"
-        default: ""
-        description: "The name of the part, where the markdown can be loaded from a file. For example: home.md which normally will be stored in the parts folders. Like parts-de|parts-en. The part for the actual language will be loaded automatically. That means in case of a mobile app the markdown will be loaded from parts-es in case Spanish is the selected language and parts-en if the selected language is English."
-    }
-    Property {
         name: "text"
         type: "String"
         default: ""
