@@ -1,5 +1,5 @@
 ElementDefinition {
-    name: "DataSource"
+    name: "RestDatasource"
     description: "Here you can define a datasource."
 
     AllowedRoot { name: "App" }
